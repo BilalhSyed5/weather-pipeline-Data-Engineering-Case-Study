@@ -3,6 +3,7 @@ import requests
 import duckdb
 from datetime import datetime
 
+# To get an api key go to https://developer.accuweather.com/ and input it between the "" on the line below
 API_KEY = "HqibDSIA6ujO8JADWPvEy6WqnQrt5kCX"
 BASE_URL = "http://dataservice.accuweather.com"
 CITIES = {
